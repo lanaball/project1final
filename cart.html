@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>java</title>
+  <link rel="stylesheet" href="./script.js">
+  <script src="./script.js" defer></script>
+  
+  <style>
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid lightblue;
+    padding: 10px;
+    right: 0;
+}
+
+.nav-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+}
+    
+    .box{
+      display: table;
+      border: 3px solid rgb(132, 125, 125);
+      height: 50vh;
+      width: 40vw;
+      margin: auto;
+      justify-content: center;
+      align-content: center;
+    }
+
+    h1{
+      color: black;
+      display: inline;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+    }
+  </style>
+  
+</head>
+<body>  
+<div>
+<nav class="nav-link">
+  <a href="./index.html"> <img src="./assests/icons/home.svg" alt="home"> </a>
+  <a href="./cart.html"> <img src="./assests/icons/cart.svg" alt="cart"> </a>
+</nav>
+</header>
+
+</div>
+<div class="box">
+  <label>type your name:
+<input type="text" data-input></label>
+<button onclick="formSubmitted()">add</button>
+<ul data-list>
+  <li>John</li>
+  <li>Mary</li>
+  <li>Amy</li>
+</ul>
+</div>
+
+</body>
+</html>
